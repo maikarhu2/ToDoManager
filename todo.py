@@ -16,6 +16,7 @@ def view_tasks(tasks):
 	index = 0
 	while index < len(tasks):  # while items in list
 		print(f'{index+1}. {tasks[index]}')    # print item
+		index += index
 
 # remove_task
 def remove_task(tasks):
