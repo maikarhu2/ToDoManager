@@ -16,7 +16,7 @@ def main ():
         1: Add task
         2: View tasks
         3: Remove task
-        4: Exit
+        4: Exit program
         """)
 
         #Print header of the to do list:
