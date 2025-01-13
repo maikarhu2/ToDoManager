@@ -7,14 +7,14 @@ With this program you can create and edit a To Do -list
 
 from todo.py import add_task, view_tasks, remove_task
 
+def main ():
+    #Ask for user input
+    user_input = input("Please select an option:")
+
+    #Call correct function:
+    if user_input == '1'  # and so on....
+
 # Run the program
 if __name__ == '__main__':
-    # User adds task
-    add_task()
-
-    # User views task
-    view_tasks()
-
-    # User removes task
-    remove_task()
+    main()
     
