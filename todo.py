@@ -1,9 +1,9 @@
 tasks = []
 
 def add_task() -> bool:
-    new_task = input("Enter task: ")
+    new_task_content = input("Enter task: ")
     try:
-        tasks.append(new_task)
+        tasks.append((len(tasks), new_task_content))
     except Exception:
         print(f"error: {Exception}")
         return False
