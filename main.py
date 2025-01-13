@@ -16,4 +16,5 @@ if __name__ == '__main__':
     view_tasks()
 
     # User removes task
+    remove_task()
     
