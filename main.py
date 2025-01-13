@@ -9,6 +9,8 @@ from todo.py import add_task, view_tasks, remove_task
 
 def main ():
     while True:
+        #Print header of the to do list:
+        print("TO DO -LIST:")
         #Ask for user input
         user_input = input("""
         Please select an option (type 1, 2, 3 or 4):
@@ -19,15 +21,18 @@ def main ():
         """)
 
         #Call correct function:
-        if user_input == '1':  
-            add_task()
+        if user_input == '1':
+            print("Add")  
+            #add_task()
         elif user_input == '2':
-            view_tasks()
+            print("View")
+            #view_tasks()
         elif user_input == '3':
-            remove_task()
+            print("Remove")
+            #remove_task()
         elif user_input == '4':
             print("Exiting program. Thank you for using the To Do -list manager.")
-            break
+            #break
         else:
             print("""Invalid option. Please type 1, 2, 3 or 4.
             1: Add task
