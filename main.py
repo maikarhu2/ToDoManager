@@ -7,6 +7,9 @@ With this program you can create and edit a To Do -list
 
 #from todo.py import add_task, view_tasks, remove_task
 
+# Initialize the list
+tasks = []
+
 def main ():
     while True:
         
