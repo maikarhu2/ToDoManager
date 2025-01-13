@@ -24,6 +24,17 @@ def main ():
         elif user_input == '2':
             view_tasks()
         elif user_input == '3':
+            remove_task()
+        elif user_input == '4':
+            print("Exiting program. Thank you for using the To Do -list manager.")
+            break
+        else:
+            print("""Invalid option. Please type 1, 2, 3 or 4.
+            1: Add task
+            2: View tasks
+            3: Remove task
+            4: Exit
+            """)
 
 
 # Run the program
