@@ -1,7 +1,6 @@
 # git ryhmä harjoitus a Jani (lead), b Jarmo, c Jussi, d Maiju 
 
-#add_task
-def add_task() -> bool:
+def add_task(tasks) -> bool:
     new_task = input("Enter task: ")
     try:
         tasks.append(new_task)
