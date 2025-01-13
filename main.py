@@ -5,7 +5,7 @@ With this program you can create and edit a To Do -list
 
 ''')
 
-from todo.py import add_task, view_tasks, remove_task
+from todo import add_task, view_tasks, remove_task
 
 
 def main ():
@@ -34,13 +34,13 @@ def main ():
         #Call correct function:
         if user_input == '1':
             # Adds a task to the list.
-            add_task()
+            add_task(tasks)
         elif user_input == '2':
             # Views all the tasks on the list.
-            view_tasks()
+            view_tasks(tasks)
         elif user_input == '3':
             # Removes a task from the list.
-            remove_task()
+            remove_task(tasks)
         elif user_input == '4':
             print("Exiting program. Thank you for using the To Do -list manager.")
             break
