@@ -5,7 +5,7 @@ With this program you can create and edit a To Do -list
 
 '''
 
-from to do import add_task, view_tasks, remove_task
+from todo.py import add_task, view_tasks, remove_task
 
 # Run the program
 if __name__ == '__main__':
