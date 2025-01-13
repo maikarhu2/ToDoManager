@@ -20,7 +20,11 @@ def main ():
         """)
 
         #Print header of the to do list:
-        print("TO DO -LIST:")
+        print("""
+        
+        TO DO -LIST:
+        
+        """)
 
         #Call correct function:
         if user_input == '1':
