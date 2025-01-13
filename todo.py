@@ -1,4 +1,4 @@
-tasks = []
+
 def add_task() -> bool:
     new_task = input("Enter task: ")
     try:
