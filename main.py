@@ -5,12 +5,11 @@ With this program you can create and edit a To Do -list
 
 ''')
 
-from todo.py import add_task, view_tasks, remove_task
+#from todo.py import add_task, view_tasks, remove_task
 
 def main ():
     while True:
-        #Print header of the to do list:
-        print("TO DO -LIST:")
+        
         #Ask for user input
         user_input = input("""
         Please select an option (type 1, 2, 3 or 4):
@@ -19,6 +18,9 @@ def main ():
         3: Remove task
         4: Exit
         """)
+
+        #Print header of the to do list:
+        print("TO DO -LIST:")
 
         #Call correct function:
         if user_input == '1':
@@ -32,7 +34,7 @@ def main ():
             #remove_task()
         elif user_input == '4':
             print("Exiting program. Thank you for using the To Do -list manager.")
-            #break
+            break
         else:
             print("""Invalid option. Please type 1, 2, 3 or 4.
             1: Add task
